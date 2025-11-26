@@ -1,0 +1,2 @@
+# resync
+resync-dataadmin
