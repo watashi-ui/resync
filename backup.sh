@@ -1,12 +1,19 @@
 
 
 
+
+
+
+
+
+
+
 #!/bin/bash
 
 SRC="$HOME"
 DEST="testuser@localhost:/home/testuser/backups"
 DATE=$(date +%Y-%m-%d)
-ARCHIVE="$DEST/deleted_$DATE"
+ARCHIVE="/home/testuser/backups/deleted_$DATE"
 
 # Skapa kataloger på backupmaskinen
 ssh testuser@localhost "mkdir -p /home/testuser/backups/current"
